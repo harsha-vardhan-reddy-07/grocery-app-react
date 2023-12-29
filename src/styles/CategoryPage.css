@@ -1,0 +1,49 @@
+.category-page{
+    padding: 12vh 2% 7vh;
+    min-height: 80vh;
+}
+
+.category-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4vh 0;
+}
+
+.category-head h2{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.category-head .category-filters{
+
+    display: flex;
+    gap: 10px;
+}
+
+.category-head .category-filters label{
+    font-size: 0.9rem;
+
+}
+
+.category-head .category-filters select{
+
+    
+}
+.category-head .category-filters select:focus{
+    outline: none;
+    
+}
+
+.category-head .category-filters select option{
+
+    
+}
+
+.category-products{
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2%;
+    row-gap: 5vh;
+}

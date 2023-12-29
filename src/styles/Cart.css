@@ -1,0 +1,147 @@
+.cart-component{
+    position: fixed;
+    top: 12vh;
+    width: 35%;
+    height: 88vh;
+    right: -40vw;
+    background-color: #ffffff;
+    backdrop-filter: blur(10px);
+    z-index: 999;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 2vh 2vw;
+}
+
+.cart-body{
+
+    height: 70%;
+}
+
+.cart-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-header h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.cart-header .close-btn{
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.cart-items{
+    padding: 5vh 0;
+    height: 90%;
+    overflow-y: scroll;
+    padding: 0 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+}
+
+.cart-item{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 3%;
+}
+
+.cart-item .cart-item-image{
+
+}
+
+.cart-item .cart-item-image img{
+    width: 8vw;
+    height: 8vw;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.cart-item .cart-item-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10% 0;
+}
+
+.cart-item .cart-item-info h4{
+    font-weight: 600;
+    font-size: 1.2rem;   
+}
+
+.cart-item .cart-item-info p{
+
+}
+
+.cart-item .cart-item-price{
+    display: flex;
+    flex-direction: column;
+    gap: 20%;
+    align-items: center;
+    padding: 20% 0;
+}
+
+.cart-item .cart-item-price h4{
+    font-weight: 600;
+}
+
+.cart-item .cart-item-price button{
+    background-color: #ffffff;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: rgb(68, 124, 180);
+    cursor: pointer;
+}
+
+.cart-item hr{
+    height: 5px;
+    width: 100%;
+
+}
+
+.cart-checkout{
+    padding-top: 3vh;   
+    border-top: 1.5px solid #cbcaca;
+}
+
+.cart-checkout button{
+    background-color: orangered;
+    width: 80%;
+    margin: 2vh 10%;
+    height: 7vh;
+    color: #f4eeee;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border-radius: 0.3rem;
+}
+
+.cart-checkout-data{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.cart-checkout-data span{
+    display: flex;
+    justify-content: space-between;
+}   
+
+.cart-checkout-data h4{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.cart-checkout-data p{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.cart-checkout-data h3{
+    font-size: 1.3rem;
+    font-weight: 600;
+}

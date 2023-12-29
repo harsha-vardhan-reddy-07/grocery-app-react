@@ -1,0 +1,131 @@
+.hero-component{
+
+    display: grid;
+    grid-template-columns: 58% 38%;
+    justify-content: space-evenly;
+    margin: 3vh 0;
+}
+
+.hero-card-big{
+    display: flex;
+    align-items: center;
+    border-radius: 0.7rem;
+    padding: 5%;
+    background-color: rgba(223, 164, 136, 0.212);
+}
+
+.hero-card-big .hero-card-text{
+
+    
+}
+
+.hero-card-big .hero-card-discount h4{
+    
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2.5rem;
+    color: rgb(130, 121, 121);
+}
+
+.hero-card-big .hero-card-discount span{
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero-card-big .hero-card-discount span .card-line{
+
+    width: 40%;
+    height: 1px;
+    background-color: #69686833;
+    margin: 2% 0;
+}
+
+.hero-card-big .hero-card-discount span p{
+    color: #696868ab;
+}
+.hero-card-big .hero-card-text h3{
+    font-weight: 700;
+    font-size: 3rem;
+
+}
+
+.hero-card-big .hero-card-text button{
+    border: 1px solid #69686833;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 2% 5%;
+    border-radius: 0.5rem;
+    color: #696868;
+    cursor: pointer;
+}
+
+.hero-card-big .hero-card-text button:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+
+.hero-card-big img{
+    /* width: 50%; */
+    height: 70vh;
+}
+
+.hero-cards-small{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+.hero-card-small{
+    display: flex;
+    align-items: center;
+    border-radius: 0.7rem;
+    padding: 5%;
+}
+
+.hero-card-small:nth-child(1){
+    display: flex;  
+    background-color: rgba(136, 223, 146, 0.212); 
+}
+.hero-card-small:nth-child(2){
+    display: flex;  
+    background-color: rgba(136, 204, 223, 0.212); 
+}
+
+.hero-card-small .hero-card-text{
+
+}
+
+.hero-card-small .hero-card-discount h4{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5rem;
+    color: rgb(130, 121, 121);
+}
+
+.hero-card-small .hero-card-discount{
+
+}
+.hero-card-small .hero-card-discount{
+
+}
+.hero-card-small .hero-card-text h3{
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+.hero-card-small .hero-card-text button{
+    border: 1px solid #69686833;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 2% 5%;
+    border-radius: 0.5rem;
+    color: #696868;
+    cursor: pointer;
+}
+.hero-card-small .hero-card-text button:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.hero-card-small img{
+    height: 40vh;
+}
